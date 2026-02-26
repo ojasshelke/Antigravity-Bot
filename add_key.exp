@@ -1,0 +1,4 @@
+spawn ssh-add --apple-use-keychain /Users/ojasshelke/.ssh/id_ed25519
+expect "Enter passphrase for /Users/ojasshelke/.ssh/id_ed25519:"
+send "OjasShelke123@\r"
+expect eof

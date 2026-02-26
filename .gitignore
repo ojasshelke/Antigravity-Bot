@@ -1,0 +1,7 @@
+node_modules/
+.env
+gravity_state.json
+jobs.json
+workspace/
+*.log
+.DS_Store

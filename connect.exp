@@ -1,0 +1,4 @@
+spawn ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_ed25519 root@139.59.82.96 ls -la
+expect "Enter passphrase for key"
+send "OjasShelke123@\r"
+expect eof
